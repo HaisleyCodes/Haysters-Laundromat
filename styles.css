@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arvo';
+    font-size: 16px;
+}
+.header {
+    background-color: rgb(228, 226, 222);
+}
+.height {
+    min-height: 100vh;
+}
+.height-90 {
+    min-height: 85vh;
+}
+
+.height-10 {
+    max-height: 20vh;
+}
+.height-100 {
+    height: 100vh;
+}
+.home-image {
+    background-image: url(./img/pg1-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.underline {
+    background-color: grey;
+    height: 3px;
+    width: 100%;
+}
+.btn-outline-primary {
+    background-color: rgb(89, 18, 221) !important;
+}
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+.contact-info {
+  width: 100%;
+  height: 37.5vw;
+  padding-left: auto !important;
+  padding-right: auto !important;
+  flex-direction: column !important;
+}
+.bg-muted {
+    background-color: rgb(196, 197, 240);
+}
+.height-40 {
+    min-height: 40vh;
+    background: radial-gradient(white, rgb(218, 218, 233));
+}
+.best-laundry {
+    width: 100% !important;
+    height: 30vw !important;
+    object-fit: cover !important;
+}
+#footer {
+    background-color: rgb(0, 0, 0);
+}
+.form {
+   background-color: rgb(94, 91, 91);
+   border-radius: 10px
+}
+.socials {
+    height: 15%;
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+    padding-right: 10px;
+    padding-left: 10px;;
+    border-radius: 20px;
+}
+
+.email-input {
+    background-color: rgb(94, 91, 91);
+    min-width: 200px;
+    color: black;
+}
+.placeholder {
+    color: black;
+}
+input::placeholder {
+    color: black;
+}
